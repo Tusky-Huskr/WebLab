@@ -1,7 +1,13 @@
 .container{
     background-color: rgba(255,255,255);
+    width: 80%;
+    margin: 0 auto;
 }
 
+.year{
+    color: aqua;
+    
+}
 
 body {
     font-family: 'Lato', sans-serif;
