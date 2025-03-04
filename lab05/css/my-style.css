@@ -1,3 +1,8 @@
+.container{
+    background-color: rgba(255,255,255);
+}
+
+
 body {
     font-family: 'Lato', sans-serif;
     /* Set the font family for the body */
