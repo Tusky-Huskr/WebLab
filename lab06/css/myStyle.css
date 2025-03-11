@@ -6,6 +6,12 @@ h3{
 
 }
 
+section#products h2{
+    background-color: black;
+    color: white;
+
+}
+
 h2{
     background-color: aquamarine;
     font-family: 'Courier New', Courier, monospace;
