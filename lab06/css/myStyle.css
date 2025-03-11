@@ -6,6 +6,14 @@ h3{
 
 }
 
+nav a{
+    color: yellow;
+    background-color: blue;
+
+
+}
+
+
 section#products h2{
     background-color: black;
     color: white;
@@ -32,12 +40,6 @@ p{
 
 }
 
-nav a{
-    color: yellow;
-    background-color: blue;
-
-
-}
 
 a   {
     font-size: small;
