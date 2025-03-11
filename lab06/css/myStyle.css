@@ -32,15 +32,16 @@ p{
 
 }
 
-a   {
-    font-size: small;
-    background-color: cadetblue;
-
-}
-
 nav a{
     color: yellow;
     background-color: blue;
 
 
 }
+
+a   {
+    font-size: small;
+    background-color: cadetblue;
+
+}
+
