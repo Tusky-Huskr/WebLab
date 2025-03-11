@@ -9,6 +9,7 @@ h3{
 section#products h2{
     background-color: black;
     color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 }
 
@@ -22,7 +23,7 @@ p{
 
 
 .products{
-    color: red;
+    color: slateblue;
 
 }
 
@@ -40,5 +41,6 @@ a   {
 nav a{
     color: yellow;
     background-color: blue;
+
 
 }
