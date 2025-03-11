@@ -6,6 +6,13 @@ h3{
 
 }
 
+h2{
+
+
+}
+
+
+
 
 .products{
     color: red;
@@ -19,5 +26,6 @@ h3{
 
 nav ul li{
     font-size: small;
+    background-color: cadetblue;
 
 }
