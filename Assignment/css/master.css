@@ -1,0 +1,72 @@
+#buttons {
+    /* color: white; */
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+
+#Name {
+    background-color: rgb(59, 88, 255);
+    text-decoration: dotted;
+    color: white;
+    font-size: 30px;
+}
+
+#Goal {
+    background-color: yellow;
+    text-decoration: dotted;
+    color: black;
+    font-size: 30px;
+}
+
+#Action {
+    background-color: red;
+    text-decoration: dotted;
+    color: white;
+    font-size: 30px;
+}
+
+li.list-group{
+    background-color: red;
+    text-decoration: dotted;
+    color: red;
+}
+
+#ModalBut {
+    padding-left: 300px;
+    margin: auto;
+}
+
+.Main {
+    background-color: lightgrey;
+}
+
+div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.modal{
+    color: black;
+}
+
+#goalslide{
+    margin: 100px;
+}
+
+.carousel-caption{
+    color: black;
+}
+
+#whitetext{
+    color: white;
+}
+
+footer{
+    margin-bottom: 100%;
+    border: 10px;
+    /* padding-top: 500px; */
+    text-align: center;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>H1000</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--CSS-->
+  <link href="css/master.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="Main">
+
+  <!-- NAME -->
+  <div class="d-grid">
+    <button type="button" class="btn btn-primary btn-block  " data-bs-toggle="collapse" data-bs-target="#Name"
+      id="buttons">
+      <h1>Who am I?</h1>
+    </button>
+  </div>
+  <div id="Name" class="collapse">
+    <p>I am YAU Callum Tze Hei. A student from Associate Degree of Creative and Interactive Media Production. I have an
+      all general interest in Media Production.</p>
+
+    <p> I am also a general hobbyist in multiple visual arts.</p>
+    <!-- Cards -->
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="card col-sm-4" style="width:400px">
+        <img class="card-img-top" src="img/Model.jpg" alt="My ZGOK model">
+        <div class="card-body">
+          <h4 class="card-title">Model Building</h4>
+          <p class="card-text">I recently started in late 2024 and I am a big fan of it</p>
+          <a href="https://www.instagram.com/p/DB6PKbJSGC2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="btn btn-primary">Image Source</a>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card col-sm-4" style="width:400px">
+        <div class="card-body">
+          <h4 class="card-title">Digital Art</h4>
+          <p class="card-text">I've started it as a minor hobby in 2019, but I've recently started to draw more</p>
+          <a href="https://www.instagram.com/p/C-KTzcXyIdL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="btn btn-primary">Image Source</a>
+        </div>
+        <img class="card-img-top" src="img/Drawing.png" alt="My original drawing">
+        <p></p>
+      </div>
+      <!-- Card 3 -->
+      <div class="card col-sm-4" style="width:400px">
+        <img class="card-img-top" src="img/Holder.png" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Programming and Softwares</h4>
+          <p class="card-text">I'm learning a bunch of creation softwares such as Python, Blender, Bitmap and Vector drawing apps.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strength -->
+  <div class="d-grid">
+    <button type="button" class="btn btn-warning btn-block  " data-bs-toggle="collapse" data-bs-target="#Goal"
+      id="buttons">
+      <h1>My Strength</h1>
+    </button>
+  </div>
+  <div id="Goal" class="collapse">
+    What are my strengths?
+    <!-- Slideshow -->
+    <div id="goalslide" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#goalslide" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#goalslide" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#goalslide" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- Images -->
+        <div class="carousel-item active">
+          <img src="img/Creative.jpg" alt="Image of Creativity" class="d-block" style="width: 100%;">
+          <div class="carousel-caption" id="whitetext">
+            <h1>I am creative and have a lot of ideas.</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Holder.png" alt="Image of Web design" class="d-block" style="width: 100%;">
+          <div class="carousel-caption" id="whitetext">
+            <h1>I am experienced in different subject, therefore I am flexible.</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Job.jpg" alt="Image of Handshake" class="d-block" style="width: 100%;">
+          <div class="carousel-caption">
+            <h1>I am always willing to accept new ideas and concepts.</h1>
+          </div>
+        </div>
+        <!-- Button controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#goalslide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#goalslide" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+    </div>
+    <p>And I hope this course would expand further in my strengths.</p>
+  </div>
+
+  <!-- ACTION -->
+  <div class="d-grid">
+    <button type="button" class="btn btn-danger btn-block  " data-bs-toggle="collapse" data-bs-target="#Action"
+      id="buttons">
+      <h1>My Action</h1>
+    </button>
+  </div>
+
+  <div id="Action" class="collapse">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalBut">
+      Target:
+    </button>
+    <div class="modal" id="ModalBut">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal title -->
+          <div class="modal-header">
+            <h4 class="modal-title">Target</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal center -->
+          <div class="modal-body">
+            Finish my Associate Degree and go for further education.
+            <div class="dropdown">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+                How to do it?
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Study Web Design</a></li>
+                <li><a class="dropdown-item">Study Media Production</a></li>
+                <li><a class="dropdown-item">Study Photography</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Modal closing -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <p>What should I do after that? </p>
+    <ul class="list-group list-group-flush" >
+      <li class="list-group-item list-group-item-danger">Finish my Associate Degree</li>
+      <li class="list-group-item list-group-item-danger">Go into University</li>
+      <li class="list-group-item list-group-item-danger">Get my University Degree</li>
+    </ul>
+  </div>
+
+
+  <footer>
+
+    <p>Website made by YAU Callum Tze Hei H10008071</p>
+  </footer>
+
+</body>
