@@ -1,0 +1,46 @@
+#logo {
+    height: 100px;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#topbar {
+    text-align: right;
+    list-style: none;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+#bottombar {
+    list-style-type: none;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+#BibleQuote {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Border {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+#Frame {
+    height: 500px;
+    width: 90%;
+}
+
+footer {
+    color: antiquewhite;
+    background-color: firebrick;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
